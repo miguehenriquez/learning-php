@@ -10,9 +10,9 @@
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <a href="/" class="<?php echo isUrl('/') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?>  px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Home</a>
 
-            <a href="/contact.php" class="<?php echo isUrl('/contact.php') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+            <a href="/contact" class="<?php echo isUrl('/contact') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
 
-            <a href="/about.php" class="<?php echo isUrl('/about.php') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+            <a href="/about" class="<?php echo isUrl('/about') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
 
             <!-- <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Calendar</a> -->
 
